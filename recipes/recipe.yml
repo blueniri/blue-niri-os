@@ -35,8 +35,8 @@ modules:
     system:
       # If no repo information is specified, Flathub will be used by default
       install:
-        - org.mozilla.firefox
-        - org.gnome.Loupe
+      #  - org.mozilla.firefox
+      #  - org.gnome.Loupe
       remove:
         - org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
