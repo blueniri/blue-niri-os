@@ -34,9 +34,9 @@ modules:
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
       # If no repo information is specified, Flathub will be used by default
+      # - org.mozilla.firefox
       install:
-      #  - org.mozilla.firefox
-      #  - org.gnome.Loupe
+        - org.gnome.Loupe
       remove:
         - org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
