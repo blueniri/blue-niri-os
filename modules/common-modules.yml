@@ -1,5 +1,0 @@
-modules:
-    
-    - type: script
-      scripts:
-        - install-rpm-fusion.sh
