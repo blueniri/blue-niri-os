@@ -2,13 +2,29 @@ modules:
 
   - type: rpm-ostree
     install:
+      #------------------------------------------------------
+      # Password Management
+      #------------------------------------------------------
       - pass
       - gopass
+      #------------------------------------------------------
+      # Editors
+      #------------------------------------------------------
       - helix
+      #------------------------------------------------------
+      # Launchers
+      #------------------------------------------------------
       - fuzzel
+      #------------------------------------------------------
+      # Display Management
+      #------------------------------------------------------
+      - wdisplays
 
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/ulysg/xwayland-satellite/repo/fedora-%OS_VERSION%/ulysg-xwayland-satellite-fedora-%OS_VERSION%.repo
     install:
+      #------------------------------------------------------
+      # Utility to launch X applications
+      #------------------------------------------------------
       - xwayland-satellite
