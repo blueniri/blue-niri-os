@@ -6,3 +6,9 @@ modules:
       - gopass
       - helix
       - fuzzel
+
+  - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/ulysg/xwayland-satellite/repo/fedora-%OS_VERSION%/ulysg-xwayland-satellite-fedora-%OS_VERSION%.repo
+    install:
+      - xwayland-satellite
