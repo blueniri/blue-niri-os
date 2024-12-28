@@ -28,3 +28,7 @@ modules:
       # Utility to launch X applications
       #------------------------------------------------------
       - xwayland-satellite
+
+  - type: chezmoi
+    all-users: false
+
