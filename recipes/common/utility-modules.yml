@@ -30,5 +30,6 @@ modules:
       - xwayland-satellite
 
   - type: chezmoi
+    disable-init: true
     all-users: false
 
