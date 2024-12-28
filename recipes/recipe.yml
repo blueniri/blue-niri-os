@@ -6,7 +6,8 @@ description: Universal Blue with Niri Wayland compositor.
 # base-image: ghcr.io/ublue-os/base-main
 # base-image: ghcr.io/ublue-os/bazzite
 # base-image: ghcr.io/ublue-os/sericea-main
-base-image: ghcr.io/ublue-os/sericea-nvidia
+# base-image: ghcr.io/ublue-os/sericea-nvidia
+base-image: ghcr.io/ublue-os/sericea-main
 image-version: 41 # latest is also supported if you want new updates ASAP
 
 modules:
