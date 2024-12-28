@@ -3,3 +3,6 @@ modules:
   - type: rpm-ostree
     install:
       - pass
+      - passmenu
+      - QtPass
+      - gopass
