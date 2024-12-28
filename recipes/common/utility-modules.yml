@@ -3,6 +3,6 @@ modules:
   - type: rpm-ostree
     install:
       - pass
-      - qtpass
       - gopass
       - helix
+      - fuzzel
