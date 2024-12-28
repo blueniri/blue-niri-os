@@ -4,5 +4,5 @@ modules:
     install:
       - pass
       - passmenu
-      - QtPass
+      - qtpass
       - gopass
