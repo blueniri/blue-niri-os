@@ -29,7 +29,11 @@ modules:
       #------------------------------------------------------
       - xwayland-satellite
 
+    #------------------------------------------------------
+    # Install chezmoi. Not available in rpm-ostree or copr.
+    #------------------------------------------------------
   - type: chezmoi
+    repository: ""
     disable-init: true
     all-users: false
 
