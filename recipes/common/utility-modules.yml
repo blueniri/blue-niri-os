@@ -3,7 +3,7 @@ modules:
   - type: rpm-ostree
     install:
       #------------------------------------------------------
-      # Password Management
+      # Password Management!
       #------------------------------------------------------
       - pass
       - gopass
