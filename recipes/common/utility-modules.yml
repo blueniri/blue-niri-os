@@ -27,9 +27,9 @@ modules:
       #------------------------------------------------------
       - alacritty
       - fish
+      - fastfetch
       - mako
       - fontconfig
-      - fastfetch
 
   - type: rpm-ostree
     repos:
