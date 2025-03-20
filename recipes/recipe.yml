@@ -7,8 +7,7 @@ description: Universal Blue with Niri Wayland compositor.
 # base-image: ghcr.io/ublue-os/base-main
 # base-image: ghcr.io/ublue-os/bazzite
 # base-image: ghcr.io/ublue-os/sericea-main
-# base-image: ghcr.io/ublue-os/sericea-nvidia <-- Black login screen.
-base-image: ghcr.io/ublue-os/sericea-main
+base-image: ghcr.io/ublue-os/sericea-nvidia
 image-version: latest
 
 modules:
