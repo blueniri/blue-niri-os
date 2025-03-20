@@ -26,6 +26,7 @@ modules:
       # Utility
       #------------------------------------------------------
       - mako
+      - fontconfig
       - fastfetch
 
   - type: rpm-ostree
