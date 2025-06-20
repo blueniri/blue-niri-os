@@ -1,0 +1,13 @@
+modules:
+
+  - type: rpm-ostree
+    repos:
+      - netbird.repo # Copies in .repo file from files/rpm-ostree/. to /etc/yum.repos.d/.
+    install:
+      - netbird
+
+  - type: systemd
+    system:
+      enabled:
+        - netbird
+
