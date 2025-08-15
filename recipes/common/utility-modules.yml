@@ -31,6 +31,13 @@ modules:
       - mako
       - fontconfig
 
+
+  - type: rpm-ostree
+    repos:
+      - ghostty.repo # Copies in .repo file from files/rpm-ostree/. to /etc/yum.repos.d/.
+    install:
+      - ghostty
+
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/ulysg/xwayland-satellite/repo/fedora-%OS_VERSION%/ulysg-xwayland-satellite-fedora-%OS_VERSION%.repo
