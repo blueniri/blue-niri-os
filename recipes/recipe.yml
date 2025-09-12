@@ -1,6 +1,6 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-# Bump version 0.3
+# Bump version 2025-09-12
 name: blue-niri-os
 description: Universal Blue with Niri Wayland compositor.
 
