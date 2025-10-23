@@ -1,6 +1,6 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-# Bump version 2025-09-12
+# Bump version 2025-10-23
 name: blue-niri-os
 description: Universal Blue with Niri Wayland compositor.
 
@@ -10,7 +10,6 @@ description: Universal Blue with Niri Wayland compositor.
 # base-image: ghcr.io/ublue-os/sericea-main
 # base-image: ghcr.io/ublue-os/sway-atomic-nvidia
 # base-image: ghcr.io/ublue-os/sway-atomic-main
-# Update 06/28/25
 base-image: ghcr.io/ublue-os/sway-atomic-nvidia
 image-version: latest
 
