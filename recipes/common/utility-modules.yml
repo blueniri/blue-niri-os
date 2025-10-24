@@ -25,12 +25,11 @@ modules:
       #------------------------------------------------------
       # Utility
       #------------------------------------------------------
-      - alacritty
+      # Replaced with ghostty: - alacritty
       - fish
       - fastfetch
       - mako
       - fontconfig
-      - kdeconnectd
 
 
   - type: rpm-ostree
