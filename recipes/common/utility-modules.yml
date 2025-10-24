@@ -30,6 +30,7 @@ modules:
       - fastfetch
       - mako
       - fontconfig
+      - kdeconnectd
 
 
   - type: rpm-ostree
