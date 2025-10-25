@@ -25,7 +25,7 @@ modules:
       #------------------------------------------------------
       # Utility
       #------------------------------------------------------
-      # Replaced with ghostty: - alacritty
+      - wl-clipboard
       - fish
       - fastfetch
       - mako
