@@ -1,9 +1,9 @@
 modules:
 
- - type: akmods
-   base: main
-   install:
-     - nvidia-open
+  - type: akmods
+    base: main
+    install:
+      - nvidia-open
 
   - type: rpm-ostree
     install:
