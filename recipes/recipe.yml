@@ -5,12 +5,14 @@ name: blue-niri-os
 description: Universal Blue with Niri Wayland compositor.
 
 
-# base-image: ghcr.io/ublue-os/base-main
+base-image: ghcr.io/ublue-os/base-main
+# base-image: ghcr.io/ublue-os/sway-atomic-nvidia
+
 # base-image: ghcr.io/ublue-os/bazzite
 # base-image: ghcr.io/ublue-os/sericea-main
 # base-image: ghcr.io/ublue-os/sway-atomic-nvidia
 # base-image: ghcr.io/ublue-os/sway-atomic-main
-base-image: ghcr.io/ublue-os/sway-atomic-nvidia
+
 image-version: latest
 
 modules:
