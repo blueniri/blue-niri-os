@@ -1,10 +1,15 @@
 modules:
 
+ - type: akmods
+   base: main
+   install:
+     - nvidia-open
+
   - type: rpm-ostree
     install:
-      - akmod-nvidia
-      - xorg-x11-drv-nvidia
-      - xorg-x11-drv-nvidia-cuda
+      # - akmod-nvidia
+      # - xorg-x11-drv-nvidia
+      # - xorg-x11-drv-nvidia-cuda
       #------------------------------------------------------
       # Password Management!
       #------------------------------------------------------
