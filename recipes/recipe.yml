@@ -6,7 +6,7 @@ description: Universal Blue with Niri Wayland compositor.
 
 
 base-image: ghcr.io/ublue-os/base-main
-image-version: 42
+image-version: 43
 # base-image: ghcr.io/ublue-os/sway-atomic-nvidia
 
 # base-image: ghcr.io/ublue-os/bazzite
