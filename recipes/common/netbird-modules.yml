@@ -5,6 +5,7 @@ modules:
       - netbird.repo # Copies in .repo file from files/rpm-ostree/. to /etc/yum.repos.d/.
     install:
       - netbird
+      - netbird-ui
 
   - type: systemd
     system:
