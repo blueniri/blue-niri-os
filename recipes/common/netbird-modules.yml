@@ -10,5 +10,3 @@ modules:
     system:
       enabled:
         - netbird
-        - netbird-ui
-
