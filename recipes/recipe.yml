@@ -5,7 +5,7 @@ name: blue-niri-os
 description: Universal Blue with Niri Wayland compositor.
 
 # https://github.com/wayblueorg/wayblue
-base-image: ghcr.io/wayblueorg/sway-nvidia-open-gdm
+base-image: ghcr.io/wayblueorg/sway-nvidia-open
 image-version: latest
 
 # image-version: latest
