@@ -1,6 +1,8 @@
 modules:
 
   - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/alternateved/keyd/repo/fedora-%OS_VERSION%/alternateved-keyd-fedora-%OS_VERSION%.repo
     install:
       #------------------------------------------------------
       # Password Management!
