@@ -1,0 +1,11 @@
+[Unit]
+Description=NetBird UI Tray Icon
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/netbird-ui
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target
